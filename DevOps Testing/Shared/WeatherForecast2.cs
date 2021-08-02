@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DevOps_Testing.Shared
 {
-    public class WeatherForecast
+    public class WeatherForecast2
     {
         public DateTime Date { get; set; }
 
