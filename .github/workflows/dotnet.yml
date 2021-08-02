@@ -24,7 +24,7 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Publish Client
-      run: dotnet publish "DevOps Testing/DevOpsTesting.Client.csproj -c Release -o website"
+      run: dotnet publish "DevOps Testing/Client/DevOpsTesting.Client.csproj -c Release -o website"
     - name: Publish Server
-      run: dotnet publish "DevOps Testing/DevOpsTesting.Server.csproj -c Release -o website"
+      run: dotnet publish "DevOps Testing/Server/DevOpsTesting.Server.csproj -c Release -o website"
       
